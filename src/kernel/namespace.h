@@ -28,6 +28,6 @@ struct namespace
 
 int namespace_iterate(struct namespace * ns);
 
-int lookup(const char * path);
+int lookup(const char * path, struct openres * );
 
 #endif

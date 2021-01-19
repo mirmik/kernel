@@ -6,6 +6,8 @@
 struct ppp_ldisc 
 {
 
-}
+};
+
+void ppp_ldisc 
 
 #endif
