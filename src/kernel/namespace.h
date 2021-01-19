@@ -3,13 +3,13 @@
 
 struct directory_pointer 
 {
-	struct namespace * ns;
+	int ns_index;
 	const char * path;
 };
 
 struct resource_pointer 
 {
-	struct namespace * ns;
+	int ns_index;
 	const char * path;
 };
 
